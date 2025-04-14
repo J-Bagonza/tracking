@@ -58,7 +58,7 @@ const TrackingPage = ({ trackingNumber, onLogout }) => {
           
           {/* Header */}
           <div
-  className="bg-blue-600 text-white p-6 flex justify-between items-center"
+  className="bg-blue-600 text-black p-6 flex justify-between items-center"
   style={{
     backgroundImage: `url('/plane.jpg')`,
     backgroundSize: 'cover',
@@ -68,11 +68,11 @@ const TrackingPage = ({ trackingNumber, onLogout }) => {
 >
   <div>
     <h1 className="text-xl font-bold">Tracking Details</h1>
-    <p className="text-blue-100">Confirmation Number: {trackingData.confirmationNumber}</p>
+    <p className="text-black">Confirmation Number: {trackingData.confirmationNumber}</p>
   </div>
   <div className="text-right">
     <p className="font-semibold">Flight No: {trackingData.flightNumber}</p>
-    <p className="text-sm text-blue-100">{trackingData.operator}</p>
+    <p className="text-sm text-black">{trackingData.operator}</p>
   </div>
 </div>
 
