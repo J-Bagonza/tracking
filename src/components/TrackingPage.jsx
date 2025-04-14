@@ -67,12 +67,12 @@ const TrackingPage = ({ trackingNumber, onLogout }) => {
   }}
 >
   <div>
-    <h1 className="text-xl font-bold">Tracking Details</h1>
-    <p className="text-black">Confirmation Number: {trackingData.confirmationNumber}</p>
+    <h1 className="text-xl font-extrabold">Tracking Details</h1>
+    <p className="text-orange-600 font-bold">Confirmation Number: {trackingData.confirmationNumber}</p>
   </div>
   <div className="text-right">
-    <p className="font-semibold">Flight No: {trackingData.flightNumber}</p>
-    <p className="text-sm text-black">{trackingData.operator}</p>
+    <p className="font-extrabold">Flight No: {trackingData.flightNumber}</p>
+    <p className="text-sm text-orange-600 font-bold">{trackingData.operator}</p>
   </div>
 </div>
 
