@@ -24,7 +24,7 @@ export const validTrackingNumbers = [
         country: "USA"
       },
       arrival: {
-        date: "Thu, Apr. 10, 2025",
+        date: "Fri, Apr. 11, 2025",
         time: "8:00 AM",
         location: "Moi International",
         code: "KE",

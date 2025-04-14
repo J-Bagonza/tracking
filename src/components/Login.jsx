@@ -64,7 +64,7 @@ const Login = ({ onLogin }) => {
                 <p className="mt-2 text-sm text-red-600">{error}</p>
               )}
               <p className="mt-2 text-xs text-gray-500">
-                Example: AA/GOA1UO (Try this or AA/GOA2UO through AA/GOA0UO)
+                Please Enter your Tracking number to Login.
               </p>
             </div>
             
@@ -81,7 +81,7 @@ const Login = ({ onLogin }) => {
           
           <div className="mt-6 text-center">
             <p className="text-sm text-gray-600">
-              Need assistance? Contact our support at support@globalair-cargo.com
+              Need assistance? Contact our support at support@globalair-cargo.mail
             </p>
           </div>
         </div>
