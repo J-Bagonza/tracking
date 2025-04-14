@@ -13,15 +13,6 @@ const Footer = () => {
             </div>
             
             <div>
-              <h3 className="text-lg font-semibold mb-3">Contact</h3>
-              <ul className="text-gray-300 text-sm">
-                <li className="mb-2">Phone: +1 (800) 123-4567</li>
-                <li className="mb-2">Email: support@globalair-cargo.com</li>
-                <li>Address: 789 Air Cargo Way, Chicago, IL 60638</li>
-              </ul>
-            </div>
-            
-            <div>
               <h3 className="text-lg font-semibold mb-3">Links</h3>
               <ul className="text-gray-300 text-sm">
                 <li className="mb-2">
