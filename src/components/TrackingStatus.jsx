@@ -30,19 +30,19 @@ const TrackingStatus = ({ status }) => {
   return (
     <div className="py-6">
       <div className="max-w-4xl mx-auto px-4">
-        <div className="relative">
-          {/* Line connecting icons */}
+        <div className="relative flex items-center justify-center">
+          {/* Line connecting icons - now centered vertically with the icons */}
           <div className="absolute inset-0 flex items-center" aria-hidden="true">
             <div className="h-0.5 w-full bg-gray-200"></div>
           </div>
           
           {/* Steps */}
-          <div className="relative flex justify-between items-center">
+          <div className="relative flex justify-between items-center w-full">
             {steps.map((step) => (
-              <div key={step.id} className="relative flex flex-col items-center">
-                {/* Icon */}
+              <div key={step.id} className="relative flex flex-col items-center z-10">
+                {/* Icon - smaller for mobile */}
                 <div 
-                  className={`h-12 w-12 rounded-full flex items-center justify-center ${
+                  className={`h-8 w-8 md:h-10 md:w-10 rounded-full flex items-center justify-center ${
                     step.status === 'complete' 
                       ? 'bg-green-500' 
                       : step.status === 'current' 
@@ -51,18 +51,18 @@ const TrackingStatus = ({ status }) => {
                   }`}
                 >
                   {step.status === 'complete' ? (
-                    <Check className="h-6 w-6 text-white" />
+                    <Check className="h-4 w-4 md:h-5 md:w-5 text-white" />
                   ) : step.status === 'current' ? (
-                    <Clock className="h-6 w-6 text-white" />
+                    <Clock className="h-4 w-4 md:h-5 md:w-5 text-white" />
                   ) : (
-                    <step.icon className="h-6 w-6 text-white" />
+                    <step.icon className="h-4 w-4 md:h-5 md:w-5 text-white" />
                   )}
                 </div>
                 
-                {/* Label */}
-                <div className="mt-3 flex flex-col items-center">
+                {/* Label - improved for mobile */}
+                <div className="mt-2 flex flex-col items-center">
                   <span 
-                    className={`text-sm font-medium ${
+                    className={`text-xs md:text-sm font-medium ${
                       step.status === 'complete' 
                         ? 'text-green-600' 
                         : step.status === 'current' 
@@ -72,7 +72,7 @@ const TrackingStatus = ({ status }) => {
                   >
                     {step.name}
                   </span>
-                  <span className="text-xs text-gray-500 text-center">
+                  <span className="text-xxs md:text-xs text-gray-500 text-center px-1 max-w-[90px] md:max-w-none">
                     {step.description}
                   </span>
                 </div>
