@@ -81,7 +81,7 @@ const Login = ({ onLogin }) => {
           
           <div className="mt-6 text-center">
             <p className="text-sm text-gray-600">
-              Need assistance? Contact our support at support@globalair-cargo.mail
+              Need assistance? Contact our support at supportglobalair-cargo@gmail.com
             </p>
           </div>
         </div>
