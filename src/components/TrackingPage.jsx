@@ -67,18 +67,18 @@ const TrackingPage = ({ trackingNumber, onLogout }) => {
   }}
 >
   <div>
-    <h1 className="text-xl font-extrabold"> :  </h1>
-    <h1 className="text-xl font-extrabold"> :  </h1>
-    <h1 className="text-xl font-extrabold"> :  </h1>
-    <p className="text-white font-bold">  : {  }</p>
-    <p className="text-white font-bold">  : {  }</p>
+    <h1 className="text-xl font-extrabold">{'\u200B'}</h1>
+    <h1 className="text-xl font-extrabold">{'\u200B'}</h1>
+    <h1 className="text-xl font-extrabold">{'\u200B'}</h1>
+    <p className="text-white font-bold"> {'\u200B'}</p>
+    <p className="text-white font-bold">  {'\u200B'}</p>
   </div>
   <div className="text-right">
-    <p className="font-extrabold">   : {  }</p>
-    <p className="font-extrabold">   : {  }</p>
-    <p className="font-extrabold">   : {  }</p>
-    <p className="text-sm text-white font-bold">:{ }</p>
-    <p className="text-white font-bold">  : {  }</p>
+  <p className="font-extrabold">{'\u200B'} { }</p>
+  <p className="font-extrabold">{'\u200B'} { }</p>
+  <p className="font-extrabold">{'\u200B'} { }</p>
+    <p className="text-sm text-white font-bold">{'\u200B'}</p>
+    <p className="text-white font-bold"> {'\u200B'}</p>
   </div>
 </div>
 
