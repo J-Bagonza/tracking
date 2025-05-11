@@ -9,7 +9,7 @@ const Navbar = ({ onLogout }) => {
             <div className="rounded-full bg-blue-600 p-2">
               <PlaneTakeoff className="w-5 h-5 text-white" />
             </div>
-            <span className="ml-2 text-xl font-bold text-gray-800">Global AirCargo</span>
+            <span className="ml-2 text-xl font-bold text-gray-800">British Airways World cargo</span>
           </div>
           
           {onLogout && (
