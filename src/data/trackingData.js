@@ -36,7 +36,7 @@ export const trackingDetails = {
       phone: "+44 780680242"
     },
     receiver: {
-      name: "Aine Rita Banda",
+      name: "Aine Ritah Banda",
       phone: "+256745847526"
     },
     items: "DOLLARS",
