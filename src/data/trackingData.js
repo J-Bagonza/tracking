@@ -39,14 +39,14 @@ export const trackingDetails = {
       name: "Aine Rita Banda",
       phone: "+256745847526"
     },
-    items: "PHONE, ACCESSORIES, DOLLARS",
+    items: "DOLLARS",
     status: {
       departed: true,
       inTransit: true,
       arrived: true
     },
     estimatedDelivery: "Delivered",
-    lastUpdate: "Apr 11, 2025 at 9:30 AM"
+    lastUpdate: "May 10, 2025"
   }
 };
 
@@ -65,10 +65,10 @@ export const allTrackingDetails = validTrackingNumbers.reduce((acc, number) => {
         ? "Expected Apr 12, 2025"
         : "Expected Apr 13, 2025",
     lastUpdate: ["AA/GOA1UO", "AA/GOA2UO", "AA/GOA3UO", "AA/GOA5UO"].includes(number)
-      ? "Apr 11, 2025 at 9:30 AM"
+      ? "May 10, 2025 at 9:30 AM"
       : number !== "AA/GOA9UO"
-        ? "Apr 10, 2025 at 7:45 PM"
-        : "Apr 10, 2025 at 5:15 PM"
+        ? "May 10, 2025 at 7:45 PM"
+        : "May 10, 2025 at 5:15 PM"
   };
   return acc;
 }, {});
