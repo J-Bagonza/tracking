@@ -46,7 +46,7 @@ export const trackingDetails = {
       arrived: true
     },
     estimatedDelivery: "Delivered",
-    lastUpdate: "May 10, 2025"
+    lastUpdate: "May 11, 2025"
   }
 };
 
