@@ -17,14 +17,14 @@ export const trackingDetails = {
     flightNumber: "5549",
     operator: "PSA AIRLINES AS AMERICAN EAGLE",
     departure: {
-      date: "Thu, Apr. 10, 2025",
-      time: "5:00 PM",
+      date: "Sat, May. 10, 2025",
+      time: "7:00 PM",
       location: "London Heathrow",
       code: "LHR",
       country: "UK"
     },
     arrival: {
-      date: "Fri, Apr. 11, 2025",
+      date: "Sun, May. 11, 2025",
       time: "9:30 AM",
       location: "Moi International",
       code: "KE",
