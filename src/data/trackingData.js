@@ -33,13 +33,13 @@ export const trackingDetails = {
     layover: "15 hrs layover in Kenya",
     sender: {
       name: "Anna Luisa",
-      phone: "+44 780680242"
+      phone: "+44 7480680242"
     },
     receiver: {
       name: "Aine Ritah Banda",
       phone: "+256745847526"
     },
-    items: "DOLLARS",
+    items: "CASH",
     status: {
       departed: true,
       inTransit: true,
